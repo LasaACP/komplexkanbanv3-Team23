@@ -22,22 +22,19 @@ public:
   Complex powd(const Complex c, double exp);
   Complex powi(const Complex c, int exp); // Shaayan
   Complex powc(double c, const Complex exp);
-  Complex powd(const Complex c, double exp);
-  Complex powi(const Complex c, int exp);
-  Complex powc(double c, const Complex exp);
   Complex log10(const Complex c);
   Complex log(const Complex c);
   Complex exp(const Complex);
-  Complex cosh(const Complex c);
+  Complex cosh(const Complex c); // Shaayan
   Complex cos(const Complex c);
   Complex atan(const Complex c);
   Complex asin(const Complex c);
   Complex acos(const Complex c);
-  double real(const Complex &c);
+  double real(const Complex &c); // Shaayan
   Complex polar(double mag, double ang = 0.0);
   double norm(const Complex c);
   double imag(const Complex &c);
   Complex conj(const Complex c);
-  double arg(const Complex c);
+  double arg(const Complex c); //Shaayan
   double abs(const Complex c);
 };

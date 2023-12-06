@@ -62,7 +62,7 @@ TEST_CASE("Catch2 test on returning the Real Number.")
 {
   cout << "Running tests on Real Numbers." << endl;
   Complex a = Complex();
-  //REQUIRE();
+  REQUIRE(real(a) == 0.0);
 }
 
 TEST_CASE("Catch2 test on returning the angle of a complex number.")
@@ -71,6 +71,7 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
   cout << "Running tests on Angles." << endl;
   REQUIRE(arg(b) == 0.0);
 }
+
 
 //Isabel's Tests
 // TEST_CASE("Quick Catch2 test on tanh")
