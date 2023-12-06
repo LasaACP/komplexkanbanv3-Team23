@@ -1,6 +1,6 @@
 #include "../src/Complex.h"
 
-Complex arg(const Complex b)
+double arg(const Complex b)
 {
-  return b;
+  return 0.0;
 }
