@@ -50,31 +50,31 @@ TEST_CASE("Quick Catch2 test on tanh")
 {
   cout << "Running tests on tanh" << endl;
   Complex c (0.0, 1.0);
-  REQUIRE (c.realp == tanh(c).realp);
+  REQUIRE (c.re == tanh(c).re);
 }
 
 TEST_CASE("Quick Catch2 test on pow"){
   cout << "Running tests on pow" << endl;
   const Complex c (0.0, 1.0);
-  REQUIRE (c.realp == powc(0.0, c).realp);
+  REQUIRE (c.re == powc(0.0, c).re);
 }
 
 TEST_CASE("Quick Catch2 test on log"){
   cout<< "Running tests on log" << endl;
   Complex c (0.0, 1.0);
-  REQUIRE (c.realp == log(c).realp);
+  REQUIRE (c.re == log(c).re);
 }
 
 TEST_CASE("Quick Catch2 test on asin"){
   cout << "Running tests on asin" << endl;
   const Complex c (0.0, 1.0);
-  REQUIRE (c.realp == asin(c).realp);
+  REQUIRE (c.re == asin(c).re);
 }
 
 TEST_CASE("Quick Catch2 test imag"){
   cout << "Running tests on imag" << endl;
   const Complex c (0.0, 1.0);
-  REQUIRE(c.realp == imag(c));
+  REQUIRE(c.re == imag(c));
 }
 // */
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
