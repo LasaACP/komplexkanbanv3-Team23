@@ -12,14 +12,12 @@
 #include "../tests/catch_amalgamated.hpp"
 #include "../src/fac.h"
 #include "Complex.h"
-<<<<<<< HEAD
-=======
 #include "../lib/asin.cpp"
 #include "../lib/imag.cpp"
 #include "../lib/log.cpp"
 #include "../lib/powc.cpp"
 #include "../lib/tanh.cpp"
->>>>>>> be4ca49fe45f2adf062bd63c1c562d8ab01b34de
+
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
@@ -37,72 +35,10 @@ int main( int argc, char* argv[] ) {
 
 #else    //Not CATCH_AMALGAMATED_CUSTOM_MAIN
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TEST_CASE("Quick Catch2 test on Factorial", "[Factorial]")
-{
-
-  cout << "Hello Catch2 Build with Catch2 main()\n";
-  cout << "Running tests on Factorial" << endl;
-  REQUIRE(Factorial(1) == 1);
-  REQUIRE(Factorial(2) == 2);
-  REQUIRE(Factorial(3) == 6);
-  REQUIRE(Factorial(4) == 24);
-  REQUIRE(Factorial(5) == 1);
-}
-
-<<<<<<< HEAD
+//Shaayan's Tests
 TEST_CASE("Catch2 test on the Square Root function.")
 {
   cout << "Running tests on Square Root." << endl;
-  double real = 
   REQUIRE(SquareRootStub(Complex x) == x);
 }
 
@@ -133,8 +69,7 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 
 }
 
-
-=======
+// Isabel's Tests
 TEST_CASE("Quick Catch2 test on tanh")
 {
   cout << "Running tests on tanh" << endl;
@@ -165,6 +100,5 @@ TEST_CASE("Quick Catch2 test imag"){
   const Complex c (0.0, 1.0);
   REQUIRE(c.realp == imag(c));
 }
->>>>>>> be4ca49fe45f2adf062bd63c1c562d8ab01b34de
-// */
+
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
