@@ -1,16 +1,16 @@
-struct Complex {
+class Complex {
 public:
-  double realp = 0.0;
-  double imaginary = 0.0;
+  double re = 0.0; 
+  double im = 0.0;
 
   Complex() {
-    realp = 0.0;
-    imaginary = 0.0;
-  }
+    re = 0.0;
+    im = 0.0;
+  } 
 
   Complex(double r, double i) {
-    realp = r;
-    imaginary = i;
+    re = r;
+    im = i;
   }
 
   Complex tanh(const Complex c);
