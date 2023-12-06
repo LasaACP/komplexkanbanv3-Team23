@@ -11,6 +11,7 @@
 #include <iostream>
 #include "catch_amalgamated.hpp"
 #include "../src/fac.h"
+#include "Complex.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
@@ -28,6 +29,55 @@ int main( int argc, char* argv[] ) {
 
 #else    //Not CATCH_AMALGAMATED_CUSTOM_MAIN
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEST_CASE("Quick Catch2 test on Factorial", "[Factorial]")
 {
 
@@ -39,5 +89,41 @@ TEST_CASE("Quick Catch2 test on Factorial", "[Factorial]")
   REQUIRE(Factorial(4) == 24);
   REQUIRE(Factorial(5) == 1);
 }
+
+TEST_CASE("Catch2 test on the Square Root function.")
+{
+  cout << "Running tests on Square Root." << endl;
+  double real = 
+  REQUIRE(SquareRootStub(Complex x) == x);
+}
+
+TEST_CASE("Catch2 test on the Power function.")
+{
+  cout << "Running tests on Power." << endl;
+  REQUIRE(PowerStub(Complex y) == y);
+}
+
+
+TEST_CASE("Catch2 test on Hyperbolic Cosine.")
+{
+  cout << "Running tests on COSH." << endl;
+  REQUIRE(HyperbolicCOsineStub(Complex z) == z);
+}
+
+
+TEST_CASE("Catch2 test on returning the Real Number.")
+{
+  cout << "Running tests on Real Numbers." << endl;
+  REQUIRE(RealStub(Complex a) == a);
+}
+
+TEST_CASE("Catch2 test on returning the angle of a complex number.")
+{
+  cout << "Running tests on Angles." << endl;
+  REQUIRE(ArgStub(Complex b) == b);
+
+}
+
+
 // */
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN

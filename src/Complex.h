@@ -15,12 +15,12 @@ public:
 
   Complex tanh(const Complex c);
   Complex tan(const Complex c);
-  Complex sqrt(const Complex c);
+  Complex sqrt(const Complex c); // Shaayan
   Complex sinh(const Complex c);
   Complex pow(const Complex c, const Complex exp);
   Complex sin(const Complex c);
   Complex pow(const Complex c, double exp);
-  Complex pow(const Complex c, int exp);
+  Complex pow(const Complex c, int exp); // Shaayan
   Complex pow(double c, const Complex exp);
   Complex log10(const Complex c);
   Complex log(const Complex c);
