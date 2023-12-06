@@ -1,12 +1,12 @@
-struct Complex {
+class Complex {
 public:
-  double re = 0.0;
+  double re = 0.0; 
   double im = 0.0;
 
   Complex() {
     re = 0.0;
     im = 0.0;
-  }
+  } 
 
   Complex(double r, double i) {
     re = r;
