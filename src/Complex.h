@@ -19,9 +19,9 @@ public:
   Complex sinh(const Complex c);
   Complex pow(const Complex c, const Complex exp);
   Complex sin(const Complex c);
-  Complex pow(const Complex c, double exp);
-  Complex pow(const Complex c, int exp);
-  Complex pow(double c, const Complex exp);
+  Complex powd(const Complex c, double exp);
+  Complex powi(const Complex c, int exp);
+  Complex powc(double c, const Complex exp);
   Complex log10(const Complex c);
   Complex log(const Complex c);
   Complex exp(const Complex);
