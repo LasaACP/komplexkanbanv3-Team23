@@ -1,12 +1,18 @@
+#ifndef COMPLEX_H
+#define COMPLEX_H
+
+#include <iostream>
+using namespace std;
+
 class Complex {
 public:
-  double re = 0.0; 
+  double re = 0.0;
   double im = 0.0;
 
   Complex() {
     re = 0.0;
     im = 0.0;
-  } 
+  }
 
   Complex(double r, double i) {
     re = r;
@@ -21,9 +27,6 @@ public:
   Complex sin(const Complex c);
   Complex powd(const Complex c, double exp);
   Complex powi(const Complex c, int exp); // Shaayan
-  Complex powc(double c, const Complex exp);
-  Complex powd(const Complex c, double exp);
-  Complex powi(const Complex c, int exp);
   Complex powc(double c, const Complex exp);
   Complex log10(const Complex c);
   Complex log(const Complex c);
@@ -41,3 +44,4 @@ public:
   double arg(const Complex c);
   double abs(const Complex c);
 };
+#endif
