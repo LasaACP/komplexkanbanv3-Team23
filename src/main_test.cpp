@@ -17,6 +17,7 @@
 #include "../lib/log.cpp"
 #include "../lib/powc.cpp"
 #include "../lib/tanh.cpp"
+#include "../src/Complex.h"
 
 using namespace std;
 
