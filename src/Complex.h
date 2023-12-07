@@ -1,4 +1,7 @@
-struct Complex {
+#ifndef COMPLEX_H
+#define COMPLEX_H
+
+class Complex {
 public:
   double realp = 0.0;
   double imaginary = 0.0;
@@ -13,7 +16,7 @@ public:
     imaginary = i;
   }
 
-  Complex tanh(const Complex c);
+  Complex tanh(double x);
   Complex tan(const Complex c);
   Complex sqrt(const Complex c);
   Complex sinh(const Complex c);
@@ -38,3 +41,5 @@ public:
   double arg(const Complex c);
   double abs(const Complex c);
 };
+
+#endif //COMPLEX_H
