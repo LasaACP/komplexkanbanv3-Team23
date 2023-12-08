@@ -1,3 +1,7 @@
+#ifndef COMPLEX_H
+#define COMPLEX_H
+
+
 class Complex {
 public:
   double re = 0.0; 
@@ -38,3 +42,5 @@ public:
   double arg(const Complex c); //Shaayan
   double abs(const Complex c);
 };
+
+#endif //COMPLEX_H
