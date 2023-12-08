@@ -9,15 +9,7 @@
 //#define CATCH_AMALGAMATED_CUSTOM_MAIN
 #include "../tests/catch_amalgamated.hpp"
 #include "Complex.h"
-<<<<<<< HEAD
 #include <iostream>
-=======
-#include "../lib/sqrt.cpp"
-#include "../lib/powi.cpp"
-#include "../lib/cosh.cpp"
-#include "../lib/real.cpp"
-#include "../lib/arg.cpp"
->>>>>>> 3872e21d67b9306b912e5e8644ca4d171cbc5b81
 
 using namespace std;
 
@@ -36,12 +28,6 @@ int main(int argc, char *argv[]) {
 
 #else  // Not CATCH_AMALGAMATED_CUSTOM_MAIN
 
-<<<<<<< HEAD
-TEST_CASE("Quick Catch2 test on tanh") {
-  cout << "Running tests on tanh" << endl;
-  Complex c;
-  REQUIRE(c.realp == tanh(0.0));
-}
 
 /*TEST_CASE("Quick Catch2 test on pow"){
   cout << "Running tests on pow" << endl;
@@ -69,7 +55,6 @@ TEST_CASE("Catch2 test on Hyperbolic Cosine.")
   cout << "Running tests on COSH." << endl;
   Complex z = Complex();
   REQUIRE(cosh(z).re == z.re);
->>>>>>> 3872e21d67b9306b912e5e8644ca4d171cbc5b81
 }
 
 
@@ -87,47 +72,43 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
   REQUIRE(arg(b) == 0.0);
 }
 
-<<<<<<< HEAD
 TEST_CASE("Quick Catch2 test imag"){
   cout << "Running tests on imag" << endl;
   const Complex c (0.0, 1.0);
   REQUIRE(c.realp == imag(c));
 }
 // */
-#endif // ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
-=======
 
 //Isabel's Tests
-// TEST_CASE("Quick Catch2 test on tanh")
-// {
-//   cout << "Running tests on tanh" << endl;
-//   Complex c (0.0, 1.0);
-//   REQUIRE (c.re == tanh(c).re);
-// }
+TEST_CASE("Quick Catch2 test on tanh")
+{
+  cout << "Running tests on tanh" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE (c.re == (c.tanh(c)).re);
+}
 
-// TEST_CASE("Quick Catch2 test on pow"){
-//   cout << "Running tests on pow" << endl;
-//   const Complex c (0.0, 1.0);
-//   REQUIRE (c.re == powc(0.0, c).re);
-// }
+TEST_CASE("Quick Catch2 test on powc"){
+  cout << "Running tests on powc" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE (c.re == c.powc(0.0, c).re);
+}
 
-// TEST_CASE("Quick Catch2 test on log"){
-//   cout<< "Running tests on log" << endl;
-//   Complex c (0.0, 1.0);
-//   REQUIRE (c.re == log(c).re);
-// }
+TEST_CASE("Quick Catch2 test on log"){
+  cout<< "Running tests on log" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE (c.re == c.log(c).re);
+}
 
-// TEST_CASE("Quick Catch2 test on asin"){
-//   cout << "Running tests on asin" << endl;
-//   const Complex c (0.0, 1.0);
-//   REQUIRE (c.re == asin(c).re);
-// }
+TEST_CASE("Quick Catch2 test on asin"){
+  cout << "Running tests on asin" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE (c.re == c.asin(c).re);
+}
 
-// TEST_CASE("Quick Catch2 test imag"){
-//   cout << "Running tests on imag" << endl;
-//   const Complex c (0.0, 1.0);
-//   REQUIRE(c.re == imag(c));
-// }
+TEST_CASE("Quick Catch2 test imag"){
+  cout << "Running tests on imag" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE(c.re == c.imag(c));
+}
 
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
->>>>>>> 3872e21d67b9306b912e5e8644ca4d171cbc5b81

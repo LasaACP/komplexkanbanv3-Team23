@@ -16,7 +16,7 @@ public:
     im = i;
   }
 
-  Complex tanh(double x);
+  Complex tanh(Complex x);
   Complex tan(const Complex c);
   Complex sqrt(const Complex c); // Shaayan
   Complex sinh(const Complex c);

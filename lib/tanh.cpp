@@ -1,5 +1,4 @@
 #include "../src/Complex.h"
-Complex tanh(double x){
-  Complex c;
-  return c;
+Complex Complex::tanh(Complex x){
+  return x;
 }
