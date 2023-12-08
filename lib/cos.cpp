@@ -1,5 +1,5 @@
 #include "../src/Complex.h"
 
-Complex cos(const Complex c) {
+Complex Complex::cos(const Complex c) {
   return c;
 }

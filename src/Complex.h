@@ -1,8 +1,11 @@
 #ifndef COMPLEX_H
 #define COMPLEX_H
 
+<<<<<<< HEAD
 #include <iostream>
 using namespace std;
+=======
+>>>>>>> aab050208c7ec27a9be2c365671d6905901d480d
 
 class Complex {
 public:
@@ -31,17 +34,22 @@ public:
   Complex log10(const Complex c);
   Complex log(const Complex c);
   Complex exp(const Complex);
-  Complex cosh(const Complex c);
+  Complex cosh(const Complex c); // Shaayan
   Complex cos(const Complex c);
   Complex atan(const Complex c);
   Complex asin(const Complex c);
   Complex acos(const Complex c);
-  double real(const Complex &c);
+  double real(const Complex &c); // Shaayan
   Complex polar(double mag, double ang = 0.0);
   double norm(const Complex c);
   double imag(const Complex &c);
   Complex conj(const Complex c);
-  double arg(const Complex c);
+  double arg(const Complex c); //Shaayan
   double abs(const Complex c);
 };
+<<<<<<< HEAD
 #endif
+=======
+
+#endif //COMPLEX_H
+>>>>>>> aab050208c7ec27a9be2c365671d6905901d480d

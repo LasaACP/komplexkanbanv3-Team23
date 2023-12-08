@@ -1,5 +1,5 @@
 #include "../src/Complex.h"
 
-double RealStub(const Complex &a){ // work on this
+double real(const Complex &a){ // work on this
   return 0.0;
 }
