@@ -1,5 +1,5 @@
 #include "../src/Complex.h"
 
-Complex atan(const Complex c){
+Complex Complex::atan(const Complex c){
   return c;
 }
