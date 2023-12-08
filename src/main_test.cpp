@@ -8,23 +8,9 @@
 
 //#define CATCH_CONFIG_RUNNER
 //#define CATCH_AMALGAMATED_CUSTOM_MAIN
-#include <iostream>
 #include "../tests/catch_amalgamated.hpp"
 #include "Complex.h"
-<<<<<<< HEAD
-#include "../lib/asin.cpp"
-#include "../lib/imag.cpp"
-#include "../lib/log.cpp"
-#include "../lib/powc.cpp"
-#include "../lib/tanh.cpp"
-#include "../src/Complex.h"
-=======
-#include "../lib/sqrt.cpp"
-#include "../lib/powi.cpp"
-#include "../lib/cosh.cpp"
-#include "../lib/real.cpp"
-#include "../lib/arg.cpp"
->>>>>>> aab050208c7ec27a9be2c365671d6905901d480d
+#include <iostream>
 
 using namespace std;
 
@@ -47,38 +33,36 @@ int main( int argc, char* argv[] ) {
 TEST_CASE("Catch2 test on the Square Root function.")
 {
   cout << "Running tests on Square Root." << endl;
-  Complex x = Complex();
-  REQUIRE(sqrt(x).re == x.re);
+  Complex x;
+  REQUIRE(x.re == x.sqrt(x).re);
 }
 
 TEST_CASE("Catch2 test on the Power function.")
 {
   cout << "Running tests on Power." << endl;
-  Complex y = Complex();
-  REQUIRE(powi(y, 1).re == y.re);
+  Complex y;
+  REQUIRE(y.re == y.powi(y, 1).re);
 }
-
 
 TEST_CASE("Catch2 test on Hyperbolic Cosine.")
 {
   cout << "Running tests on COSH." << endl;
-  Complex z = Complex();
-  REQUIRE(cosh(z).re == z.re);
+  Complex z;
+  REQUIRE(z.re == z.cosh(z).re);
 }
-
 
 TEST_CASE("Catch2 test on returning the Real Number.")
 {
   cout << "Running tests on Real Numbers." << endl;
-  Complex a = Complex();
-  REQUIRE(real(a) == 0.0);
+  Complex a;
+  REQUIRE(a.real(a) == 0.0);
 }
 
 TEST_CASE("Catch2 test on returning the angle of a complex number.")
 {
-  Complex b = Complex();
+  Complex b;
   cout << "Running tests on Angles." << endl;
-  REQUIRE(arg(b) == 0.0);
+  REQUIRE(b.arg(b) == 0.0);
 }
 
 

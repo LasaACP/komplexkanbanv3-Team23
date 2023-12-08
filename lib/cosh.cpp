@@ -1,5 +1,5 @@
 #include "../src/Complex.h"
 
-Complex cosh(const Complex z){
+Complex Complex::cosh(const Complex z){
   return z;
 }
