@@ -26,8 +26,7 @@ int main(int argc, char *argv[]) {
   return result;
 }
 
-#else  // Not CATCH_AMALGAMATED_CUSTOM_MAIN
-
+#else // Not CATCH_AMALGAMATED_CUSTOM_MAIN
 
 /*TEST_CASE("Quick Catch2 test on pow"){
   cout << "Running tests on pow" << endl;
@@ -79,36 +78,35 @@ TEST_CASE("Quick Catch2 test imag"){
 }
 // */
 
-//Isabel's Tests
-TEST_CASE("Quick Catch2 test on tanh")
-{
+// Isabel's Tests
+TEST_CASE("Quick Catch2 test on tanh") {
   cout << "Running tests on tanh" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE (c.re == (c.tanh(c)).re);
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == (c.tanh(c)).re);
 }
 
-TEST_CASE("Quick Catch2 test on powc"){
+TEST_CASE("Quick Catch2 test on powc") {
   cout << "Running tests on powc" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE (c.re == c.powc(0.0, c).re);
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.powc(0.0, c).re);
 }
 
-TEST_CASE("Quick Catch2 test on log"){
-  cout<< "Running tests on log" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE (c.re == c.log(c).re);
+TEST_CASE("Quick Catch2 test on log") {
+  cout << "Running tests on log" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.log(c).re);
 }
 
-TEST_CASE("Quick Catch2 test on asin"){
+TEST_CASE("Quick Catch2 test on asin") {
   cout << "Running tests on asin" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE (c.re == c.asin(c).re);
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.asin(c).re);
 }
 
-TEST_CASE("Quick Catch2 test imag"){
+TEST_CASE("Quick Catch2 test imag") {
   cout << "Running tests on imag" << endl;
-  Complex c (0.0, 1.0);
+  Complex c(0.0, 1.0);
   REQUIRE(c.re == c.imag(c));
 }
 
-#endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
+#endif // ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
