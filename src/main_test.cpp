@@ -92,10 +92,42 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   REQUIRE (c.re == asin(c).re);
 // }
 
-// TEST_CASE("Quick Catch2 test imag"){
+//  TEST_CASE("Quick Catch2 test imag"){
 //   cout << "Running tests on imag" << endl;
 //   const Complex c (0.0, 1.0);
 //   REQUIRE(c.re == imag(c));
 // }
+
+//Vince's Tests
+TEST_CASE("Quick Catch2 test sinh") {
+  cout << "Running tests on sinh" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.sinh(c).re);
+}
+
+TEST_CASE("Quick Catch2 test pow") {
+  cout << "Running tests on pow" << endl;
+  Complex c(0.0, 1.0);
+  Complex c1(0.0, 1.0);
+  REQUIRE(c.re == c.pow(c, c1).re);
+}
+
+TEST_CASE("Quick Catch2 test cos") {
+  cout << "Running tests on cos" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.cos(c).re);
+}
+
+TEST_CASE("Quick Catch2 test polar") {
+  cout << "Running tests on polar" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.polar(c.re).re);
+}
+
+TEST_CASE("Quick Catch2 test abs") {
+  cout << "Running tests on abs" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.abs(c));
+}
 
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN

@@ -1,5 +1,5 @@
 #include "../src/Complex.h"
 
-double abs(const Complex c) {
+double Complex::abs(const Complex c) {
   return c.re;
 }

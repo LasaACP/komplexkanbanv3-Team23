@@ -1,5 +1,5 @@
 #include "../src/Complex.h"
 
-Complex sinh(const Complex c) {
+Complex Complex::sinh(const Complex c) {
   return c;
 }
