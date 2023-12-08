@@ -1,10 +1,7 @@
 #ifndef COMPLEX_H
 #define COMPLEX_H
 
-<<<<<<< HEAD
-=======
 
->>>>>>> aab050208c7ec27a9be2c365671d6905901d480d
 class Complex {
 public:
   double re = 0.0; 
