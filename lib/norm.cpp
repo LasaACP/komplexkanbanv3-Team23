@@ -1,5 +1,5 @@
 #include "../src/Complex.h"
 
-double norm(const Complex &c){
+double Complex::norm(const Complex c){
   return c.re;
 }
