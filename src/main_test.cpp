@@ -30,7 +30,6 @@ int main(int argc, char *argv[]) {
 
 
 //Shaayan's Tests
-// TEST_CASE("Catch2 test on the Square Root function.")
 TEST_CASE("Catch2 test on the Square Root function.")
 {
   cout << "Running tests on Square Root." << endl;
@@ -66,51 +65,6 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
   REQUIRE(b.arg(b) == 0.0);
 }
 
-
-//Isabel's Tests
-// TEST_CASE("Quick Catch2 test on tanh")
-// {
-//   cout << "Running tests on Square Root." << endl;
-//   Complex x = Complex();
-//   REQUIRE(sqrt(x).re == x.re);
-// }
-
-// TEST_CASE("Catch2 test on the Power function.")
-// {
-//   cout << "Running tests on Power." << endl;
-//   Complex y = Complex();
-//   REQUIRE(powi(y, 1).re == y.re);
-// }
-
-
-// TEST_CASE("Catch2 test on Hyperbolic Cosine.")
-// {
-//   cout << "Running tests on COSH." << endl;
-//   Complex z = Complex();
-//   REQUIRE(cosh(z).re == z.re);
-// }
-
-
-// TEST_CASE("Catch2 test on returning the Real Number.")
-// {
-//   cout << "Running tests on Real Numbers." << endl;
-//   Complex a = Complex();
-//   REQUIRE(real(a) == 0.0);
-// }
-
-// TEST_CASE("Catch2 test on returning the angle of a complex number.")
-// {
-//   Complex b = Complex();
-//   cout << "Running tests on Angles." << endl;
-//   REQUIRE(arg(b) == 0.0);
-// }
-
-// TEST_CASE("Quick Catch2 test imag"){
-//   cout << "Running tests on imag" << endl;
-//   const Complex c (0.0, 1.0);
-//   REQUIRE(c.realp == imag(c));
-// }
-// */
 
 // Isabel's Tests
 // TEST_CASE("Quick Catch2 test on tanh") {
