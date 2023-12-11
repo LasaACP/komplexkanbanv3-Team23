@@ -1,6 +1,8 @@
 #ifndef COMPLEX_H
 #define COMPLEX_H
 
+#include <iostream>
+using namespace std;
 
 class Complex {
 public:
@@ -10,7 +12,7 @@ public:
   Complex() {
     re = 0.0;
     im = 0.0;
-  } 
+  }
 
   Complex(double r, double i) {
     re = r;

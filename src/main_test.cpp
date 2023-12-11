@@ -29,6 +29,9 @@ int main(int argc, char *argv[]) {
 #else // Not CATCH_AMALGAMATED_CUSTOM_MAIN
 
 
+
+
+
 //Shaayan's Tests
 TEST_CASE("Catch2 test on the Square Root function.")
 {
@@ -97,6 +100,31 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   REQUIRE(c.re == c.imag(c));
 // }
 
+//Miles' Tests
+TEST_CASE("Quick Catch2 test on sin"){
+  cout << "Running tests on sin" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE(c.re == c.sin(c).re);
+}
+
+TEST_CASE("Quick Catch2 test on log10"){
+  cout << "Running tests on log10" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE(c.re == c.log10(c).re);
+}
+
+TEST_CASE("Quick Catch2 tes on atan"){
+  cout << "Running tests on atan" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE(c.re == c.atan(c).re);
+}
+
+TEST_CASE("Quick Catch2 test on norm"){
+  cout << "Running tests on norm" << endl;
+  Complex c (0.0, 1.0);
+  REQUIRE(c.re == c.norm(c).re);
+}
+
 //Vince's Tests
 // TEST_CASE("Quick Catch2 test sinh") {
 //   cout << "Running tests on sinh" << endl;
@@ -128,5 +156,34 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == c.abs(c));
 // }
+
+
+//Ryan's tests
+TEST_CASE("Quick Catch2 test pow") {
+  cout << "Running tests on pow" << endl;
+  Complex q(0.0, 1.0);
+  REQUIRE(q.re == q.powd(q, 1).re);
+}
+TEST_CASE("Quick Catch2 test tan") {
+  cout << "Running tests on tan" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE (c.re == c.tan(c).re);
+}
+TEST_CASE("Quick Catch2 test exp") {
+  cout << "Running tests on exp" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.exp(c).re);
+}
+TEST_CASE("Quick Catch2 test acos") {
+  cout << "Running tests on acos" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.acos(c).re);
+}
+TEST_CASE("Quick Catch2 test conj") {
+  cout << "Running tests on conj" << endl;
+  Complex c(0.0, 1.0);
+  REQUIRE(c.re == c.conj(c).re);
+}
+
 
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
