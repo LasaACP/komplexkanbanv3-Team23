@@ -151,7 +151,7 @@ TEST_CASE("Quick Catch2 test imag") {
 // TEST_CASE("Quick Catch2 test polar") {
 //   cout << "Running tests on polar" << endl;
 //   Complex c(0.0, 1.0);
-//   REQUIRE(c.re == c.polar(c.re).re);
+//   REQUIRE(c.re == c.polar(c.re, c.im).re);
 // }
 
 // TEST_CASE("Quick Catch2 test abs") {
@@ -160,14 +160,6 @@ TEST_CASE("Quick Catch2 test imag") {
 //   REQUIRE(c.re == c.abs(c));
 // }
 
-<<<<<<< HEAD
-=======
-TEST_CASE("Quick Catch2 test polar") {
-  cout << "Running tests on polar" << endl;
-  Complex c(0.0, 1.0);
-  REQUIRE(c.re == c.polar(c.re, c.im).re);
-}
->>>>>>> c756c36940a4ae0c2d2038194be1a1f3476300aa
 
 
 //Ryan's tests
