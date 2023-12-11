@@ -1,6 +1,6 @@
 #include "../src/Complex.h"
 
-Complex sqrt(const Complex x)
+Complex Complex::sqrt(Complex x)
 {
   return x;
 }
