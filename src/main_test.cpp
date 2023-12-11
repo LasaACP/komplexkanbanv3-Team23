@@ -68,7 +68,6 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
   REQUIRE(b.arg(b) == 0.0);
 }
 
-
 //Isabel's Tests
 // TEST_CASE("Quick Catch2 test on tanh")
 // {
@@ -157,5 +156,33 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == c.abs(c));
 // }
+
+//Ryan's tests
+// TEST_CASE("Quick Catch2 test pow") {
+//   cout << "Running tests on pow" << endl;
+//   Complex q(0.0, 1.0);
+//   REQUIRE(q.re == q.powd(q, 1).re);
+// }
+// TEST_CASE("Quick Catch2 test tan") {
+//   cout << "Running tests on tan" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE (c.re == c.tan(c).re);
+// }
+// TEST_CASE("Quick Catch2 test exp") {
+//   cout << "Running tests on exp" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == c.exp(c).re);
+// }
+// TEST_CASE("Quick Catch2 test acos") {
+//   cout << "Running tests on acos" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == c.acos(c).re);
+// }
+// TEST_CASE("Quick Catch2 test conj") {
+//   cout << "Running tests on conj" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == c.conj(c).re);
+// }
+
 
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN

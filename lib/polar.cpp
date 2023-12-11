@@ -1,6 +1,6 @@
 #include "../src/Complex.h"
 
-Complex Complex::polar(double mag, double ang = 0.0) {
-  Complex c = Complex(mag, mag);
+Complex Complex::polar(double mag, double ang) {
+  Complex c = Complex(mag, ang);
   return c;
 }
