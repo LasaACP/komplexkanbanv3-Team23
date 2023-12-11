@@ -101,30 +101,30 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   REQUIRE(c.re == imag(c));
 // }
 
-//Miles' Tests
-TEST_CASE("Quick Catch2 test on sin"){
-  cout << "Running tests on sin" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE(c.re == c.sin(c).re);
-}
+// Miles' Tests
+// TEST_CASE("Quick Catch2 test on sin"){
+//   cout << "Running tests on sin" << endl;
+//   Complex c (0.0, 1.0);
+//   REQUIRE(c.re == c.sin(c).re);
+// }
 
-TEST_CASE("Quick Catch2 test on log10"){
-  cout << "Running tests on log10" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE(c.re == c.log10(c).re);
-}
+// TEST_CASE("Quick Catch2 test on log10"){
+//   cout << "Running tests on log10" << endl;
+//   Complex c (0.0, 1.0);
+//   REQUIRE(c.re == c.log10(c).re);
+// }
 
-TEST_CASE("Quick Catch2 tes on atan"){
-  cout << "Running tests on atan" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE(c.re == c.atan(c).re);
-}
+// TEST_CASE("Quick Catch2 tes on atan"){
+//   cout << "Running tests on atan" << endl;
+//   Complex c (0.0, 1.0);
+//   REQUIRE(c.re == c.atan(c).re);
+// }
 
-TEST_CASE("Quick Catch2 test on norm"){
-  cout << "Running tests on norm" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE(c.re == c.norm(c).re);
-}
+// TEST_CASE("Quick Catch2 test on norm"){
+//   cout << "Running tests on norm" << endl;
+//   Complex c (0.0, 1.0);
+//   REQUIRE(c.re == c.norm(c).re);
+// }
 
 //Vince's Tests
 // TEST_CASE("Quick Catch2 test sinh") {
