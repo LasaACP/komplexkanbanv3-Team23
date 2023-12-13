@@ -4,6 +4,7 @@
 #define e 2.718281828459045
 
 using namespace std;
+
 Complex Complex::powd(const Complex b, double exp){
   double a = b.re;
   double be = b.im;
