@@ -10,7 +10,6 @@
 #include "../tests/catch_amalgamated.hpp"
 #include "Complex.h"
 #include <iostream>
-
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
@@ -103,8 +102,6 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 // }
 
 
-
-
 //Miles' Tests
 // TEST_CASE("Quick Catch2 test on sin"){
 //   cout << "Running tests on sin" << endl;
@@ -132,6 +129,7 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 
 
 //Vince's Tests
+
 // TEST_CASE("Quick Catch2 test sinh") {
 //   cout << "Running tests on sinh" << endl;
 //   Complex c(0.0, 1.0);
@@ -162,8 +160,6 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == c.abs(c));
 // }
-
-
 
 
 //Ryan's tests
