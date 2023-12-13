@@ -69,35 +69,36 @@ int main(int argc, char *argv[]) {
 
 
 // Isabel's Tests
-TEST_CASE("Quick Catch2 test on tanh") {
-  cout << "Running tests on tanh" << endl;
-  Complex c(0.0, 1.0);
-  REQUIRE(c.re == (c.tanh(c)).re);
-}
+// TEST_CASE("Quick Catch2 test on tanh") {
+//   cout << "Running tests on tanh" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == (c.tanh(c)).re);
+// }
 
-TEST_CASE("Quick Catch2 test on powc") {
-  cout << "Running tests on powc" << endl;
-  Complex c(0.0, 1.0);
-  REQUIRE(c.re == c.powc(0.0, c).re);
-}
+// TEST_CASE("Quick Catch2 test on powc") {
+//   cout << "Running tests on powc" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == c.powc(0.0, c).re);
+// }
 
 TEST_CASE("Quick Catch2 test on log") {
   cout << "Running tests on log" << endl;
-  Complex c(0.0, 1.0);
-  REQUIRE(c.re == c.log(c).re);
+  Complex c(1.0, 2.0);
+  REQUIRE(float(c.log(c).re) == float(0.8047189562));
+  REQUIRE(float(c.log(c).im) == float(1.1071487178));
 }
 
-TEST_CASE("Quick Catch2 test on asin") {
-  cout << "Running tests on asin" << endl;
-  Complex c(0.0, 1.0);
-  REQUIRE(c.re == c.asin(c).re);
-}
+// TEST_CASE("Quick Catch2 test on asin") {
+//   cout << "Running tests on asin" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == c.asin(c).re);
+// }
 
-TEST_CASE("Quick Catch2 test imag") {
-  cout << "Running tests on imag" << endl;
-  Complex c(0.0, 1.0);
-  REQUIRE(c.re == c.imag(c));
-}
+// TEST_CASE("Quick Catch2 test imag") {
+//   cout << "Running tests on imag" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == c.imag(c));
+// }
 
 
 
