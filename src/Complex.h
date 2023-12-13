@@ -21,7 +21,7 @@ public:
     re = r;
     im = i;
   }
-  Complex operator +(const Complex& c);
+Complex operator +(const Complex& c);
 Complex operator -(const Complex& c);
 Complex operator !=(const Complex& c);
 Complex operator *(const Complex& c);
