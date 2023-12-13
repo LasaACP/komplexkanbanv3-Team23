@@ -9,6 +9,9 @@ public:
   double re; 
   double im;
 
+  friend ostream& operator << (ostream&, const Complex&);
+  friend istream& operator >> (istream&, const Complex&);
+
   Complex() {
     re = 0.0;
     im = 0.0;
@@ -18,6 +21,13 @@ public:
     re = r;
     im = i;
   }
+Complex operator +(const Complex& c);
+Complex operator -(const Complex& c);
+Complex operator !=(const Complex& c);
+Complex operator *(const Complex& c);
+Complex operator <<(const Complex& c);
+Complex operator >>(const Complex& c);
+Complex operator ==(const Complex& c);
 
   Complex tanh(Complex x);
   Complex tan(const Complex c);
@@ -30,7 +40,7 @@ public:
   Complex powc(double c, const Complex exp);
   Complex log10(const Complex c);
   Complex log(const Complex c);
-  Complex exp(const Complex);
+  Complex exp(const Complex c);
   Complex cosh(const Complex c);
   Complex cos(const Complex c);
   Complex atan(const Complex c);

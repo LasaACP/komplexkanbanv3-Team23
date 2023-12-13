@@ -1,4 +1,9 @@
 #include "../src/Complex.h"
-Complex tanh(const Complex c){
+#include <cmath>
+
+Complex Complex::tanh(Complex x){
+  Complex num = sinh(x);
+  Complex dem = cosh(x);
+  Complex c = num/dem; 
   return c;
 }

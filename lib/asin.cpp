@@ -1,5 +1,6 @@
 #include "../src/Complex.h"
+#include <cmath>
 
-Complex asin(const Complex c){
-  return c;
+Complex Complex::asin(const Complex c){
+  
 }
