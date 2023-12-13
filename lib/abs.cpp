@@ -1,5 +1,7 @@
 #include "../src/Complex.h"
+#include <cmath>
 
 double Complex::abs(const Complex c) {
-  return c.re;
+  double z = std::sqrt(std::pow(c.re, 2) + std::pow(c.im, 2));
+  return z;
 }
