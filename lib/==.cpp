@@ -1,4 +1,10 @@
-#include <cmath>
 #include "../src/Complex.h"     
-#include <ostream>
+
 using namespace std;
+
+bool const Complex::operator ==(const Complex &value){
+  double r = real(value);
+  double i = imag(value);
+
+  return(r == re && i == im);
+}

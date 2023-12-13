@@ -1,4 +1,6 @@
 #include "../src/Complex.h"
+#include <cmath>
+
  double Complex::imag(const Complex &c){
-   return 0.0;
+   return c.im;
  }
