@@ -40,7 +40,7 @@ Complex operator ==(const Complex& c);
   Complex powc(double c, const Complex exp);
   Complex log10(const Complex c);
   Complex log(const Complex c);
-  Complex exp(const Complex);
+  Complex exp(const Complex c);
   Complex cosh(const Complex c);
   Complex cos(const Complex c);
   Complex atan(const Complex c);
