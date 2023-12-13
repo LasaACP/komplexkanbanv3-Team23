@@ -29,6 +29,7 @@ int main(int argc, char *argv[]) {
 
 
 
+
 // Isabel's Tests
 // TEST_CASE("Quick Catch2 test on tanh") {
 //   cout << "Running tests on tanh" << endl;
@@ -63,6 +64,12 @@ TEST_CASE("Quick Catch2 test imag") {
   REQUIRE(d.imag(d) == -1.0);
 }
 
+// TEST_CASE("Catch2 test on returning the angle of a complex number.")
+// {
+//   Complex b = Complex();
+//   cout << "Running tests on Angles." << endl;
+//   REQUIRE(arg(b) == 0.0);
+// }
 
 // Shaayan's Tests
 TEST_CASE("Catch2 test on the Square Root function.")
@@ -129,6 +136,20 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   REQUIRE(c.re == c.norm(c).re);
 // }
 
+//Vince's Tests
+TEST_CASE("Quick Catch2 test sinh") {
+  cout << "Running tests on sinh" << endl;
+  Complex c(1.0, 2.0);
+  REQUIRE(float(c.sinh(c).re) == float(-0.4890558453));
+  REQUIRE(float(c.sinh(c).im) == float(1.4031185621));
+}
+
+// TEST_CASE("Quick Catch2 test on norm"){
+//   cout << "Running tests on norm" << endl;
+//   Complex c (0.0, 1.0);
+//   REQUIRE(c.re == c.norm(c).re);
+// }
+
 
 //Vince's Tests
 // TEST_CASE("Quick Catch2 test sinh") {
@@ -154,6 +175,17 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   cout << "Running tests on polar" << endl;
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == c.polar(c.re, c.im).re);
+// }
+
+// TEST_CASE("Quick Catch2 test abs") {
+//   cout << "Running tests on abs" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.re == c.abs(c));
+// }
+
+// //Ryan's tests
+// TEST_CASE("Quick Catch2 test pow") {
+//   cout << "Running tests on pow" << endl;
 //   REQUIRE(c.re == c.polar(c.re).re);
 // }
 
