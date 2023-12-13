@@ -21,13 +21,14 @@ public:
     re = r;
     im = i;
   }
+
   Complex operator +(const Complex& c);
   Complex operator -(const Complex& c);
   bool operator !=(const Complex& c);
   Complex operator *(const Complex& c);
   Complex operator <<(const Complex& c);
   Complex operator >>(const Complex& c);
-  Complex operator ==(const Complex& c);
+  bool operator ==(const Complex& c);
 
   Complex tanh(Complex x);
   Complex tan(const Complex c);
