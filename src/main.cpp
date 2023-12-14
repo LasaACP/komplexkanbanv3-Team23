@@ -1,7 +1,6 @@
 #include <cstdlib>
 #include <iostream>
 #include "Complex.h"
-#include "fac.h"
 
 #define PI 3.1415926538979323846
 #define EULER 2.71828182845904523536

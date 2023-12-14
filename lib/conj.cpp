@@ -1,5 +1,8 @@
 #include "../src/Complex.h"
+#include <cmath>
+#include <ostream>
+using namespace std;
 
-Complex conj(const Complex c){
-  return c;
+Complex Complex::conj(const Complex &c){
+  return Complex(c.re, -c.im);
 }

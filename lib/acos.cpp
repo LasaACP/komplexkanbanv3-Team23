@@ -1,4 +1,4 @@
 #include "../src/Complex.h"
-Complex acos(const Complex c){
+Complex Complex::acos(const Complex c){
   return c;
 }
