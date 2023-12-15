@@ -5,6 +5,6 @@ using namespace std;
 
 ostream& operator <<(ostream& o, const Complex & value){
   o << value.re << " + " << value.im << "i" << endl;
-
+  cout<<"minorities";
   return o;
 }

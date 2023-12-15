@@ -9,5 +9,4 @@ bool Complex::operator==(const Complex& c) {
   double i1 = std::round(im*1000000)/1000000;
   double i2 = std::round(c.im*1000000)/1000000;
   return ((r1==r2) && (i1==i2));
-
-}
+  }

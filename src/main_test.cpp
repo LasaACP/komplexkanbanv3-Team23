@@ -67,17 +67,11 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
   REQUIRE(float(b.arg(b)) == float(63.4349488229));
 }
 
-// Isabel's Tests
+// // Isabel's Tests
 // TEST_CASE("Quick Catch2 test on tanh") {
 //   cout << "Running tests on tanh" << endl;
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == (c.tanh(c)).re);
-// }
-
-// TEST_CASE("Quick Catch2 test on powc") {
-//   cout << "Running tests on powc" << endl;
-//   Complex c(0.0, 1.0);
-//   REQUIRE(c.re == c.powc(0.0, c).re);
 // }
 
 // TEST_CASE("Quick Catch2 test on asin") {
@@ -102,8 +96,7 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 // }
 
 
-
-//Miles' Tests
+// // Miles' Tests
 // TEST_CASE("Quick Catch2 test on sin"){
 //   cout << "Running tests on sin" << endl;
 //   Complex c (1,2);
@@ -130,11 +123,9 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   Complex c (0.0, 1.0);
 //   REQUIRE(1 == c.norm(c));
 // }
-//   Complex c (0.0, 1.0);
-//   REQUIRE(c.re == c.sin(c).re);
-// }
 
-//Vince's Tests
+
+// // Vince's Tests
 // TEST_CASE("Quick Catch2 test sinh") {
 //   cout << "Running tests on sinh" << endl;
 //   Complex c(1.0, 2.0);
@@ -165,30 +156,34 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   cout << "Running tests on abs" << endl;
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == c.abs(c));
+// }
 
 
-
-//Ryan's tests
+// // Ryan's tests
 // TEST_CASE("Quick Catch2 test powd") {
 //   cout << "Running tests on powd" << endl;
 //   Complex q(0.0, 1.0);
 //   REQUIRE(q.re == q.powd(q, 1).re);
 // }
+
 // TEST_CASE("Quick Catch2 test tan") {
 //   cout << "Running tests on tan" << endl;
 //   Complex c(0.0, 1.0);
 //   REQUIRE (c.re == c.tan(c).re);
 // }
+
 // TEST_CASE("Quick Catch2 test exp") {
 //   cout << "Running tests on exp" << endl;
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == c.exp(c).re);
 // }
+
 // TEST_CASE("Quick Catch2 test acos") {
 //   cout << "Running tests on acos" << endl;
 //   Complex c(0.0, 1.0);
 //   REQUIRE(c.re == c.acos(c).re);
 // }
+
 // TEST_CASE("Quick Catch2 test conj") {
 //   cout << "Running tests on conj" << endl;
 //   Complex c(0.0, 1.0);
