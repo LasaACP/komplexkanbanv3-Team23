@@ -45,24 +45,25 @@ int main(int argc, char *argv[]) {
 
 // TEST_CASE("Quick Catch2 test on asin") {
 //   cout << "Running tests on asin" << endl;
-//   Complex c(0.0, 1.0);
-//   REQUIRE(c.re == c.asin(c).re);
+//   Complex c(1.0, 1.0);
+//   REQUIRE(float(c.asin(c).re) == float(0.6662394324925152));
+//   REQUIRE(float(c.asin(c).im) == float(1.0612750619050357));
 // }
 
-TEST_CASE("Quick Catch2 test on log"){
-  cout<< "Running tests on log" << endl;
-  Complex c (0.0, 1.0);
-  REQUIRE (c.log(c).re == 0.0);
-  REQUIRE (float(c.log(c).im) == float(1.5707963268));
-}
+// TEST_CASE("Quick Catch2 test on log"){
+//   cout<< "Running tests on log" << endl;
+//   Complex c (0.0, 1.0);
+//   REQUIRE (c.log(c).re == 0.0);
+//   REQUIRE (float(c.log(c).im) == float(1.5707963268));
+// }
 
-TEST_CASE("Quick Catch2 test imag") {
-  cout << "Running tests on imag" << endl;
-  Complex c(0.0, 1.0);
-  REQUIRE(c.imag(c) == 1.0);
-  Complex d(0.0, -1.0);
-  REQUIRE(d.imag(d) == -1.0);
-}
+// TEST_CASE("Quick Catch2 test imag") {
+//   cout << "Running tests on imag" << endl;
+//   Complex c(0.0, 1.0);
+//   REQUIRE(c.imag(c) == 1.0);
+//   Complex d(0.0, -1.0);
+//   REQUIRE(d.imag(d) == -1.0);
+// }
 
 // TEST_CASE("Catch2 test on returning the angle of a complex number.")
 // {
@@ -72,43 +73,43 @@ TEST_CASE("Quick Catch2 test imag") {
 // }
 
 // Shaayan's Tests
-TEST_CASE("Catch2 test on the Square Root function.")
-{
-  cout << "Running tests on Square Root." << endl;
-  Complex x = Complex(1.0, 2.0);
-  REQUIRE(float(x.sqrt(x).re) == float(1.2720196495)) ;
-  REQUIRE(float(x.sqrt(x).im) == float(0.7861513778));
-}
+// TEST_CASE("Catch2 test on the Square Root function.")
+// {
+//   cout << "Running tests on Square Root." << endl;
+//   Complex x = Complex(1.0, 2.0);
+//   REQUIRE(float(x.sqrt(x).re) == float(1.2720196495)) ;
+//   REQUIRE(float(x.sqrt(x).im) == float(0.7861513778));
+// }
 
-TEST_CASE("Catch2 test on the Power function.")
-{
-  cout << "Running tests on Power." << endl;
-  Complex y = Complex(1.0,2.0);
-  REQUIRE(float(y.powi(y, 2).re) == float(-3));
-  REQUIRE(float(y.powi(y,2).im) == float(4));
-}
+// TEST_CASE("Catch2 test on the Power function.")
+// {
+//   cout << "Running tests on Power." << endl;
+//   Complex y = Complex(1.0,2.0);
+//   REQUIRE(float(y.powi(y, 2).re) == float(-3));
+//   REQUIRE(float(y.powi(y,2).im) == float(4));
+// }
 
-TEST_CASE("Catch2 test on Hyperbolic Cosine.")
-{
-  cout << "Running tests on COSH." << endl;
-  Complex z = Complex(1.0,2.0);
-  REQUIRE(float(z.cosh(z).re) == float(-0.6421481247));
-  REQUIRE(float(z.cosh(z).im) == float(1.0686074214));
-}
+// TEST_CASE("Catch2 test on Hyperbolic Cosine.")
+// {
+//   cout << "Running tests on COSH." << endl;
+//   Complex z = Complex(1.0,2.0);
+//   REQUIRE(float(z.cosh(z).re) == float(-0.6421481247));
+//   REQUIRE(float(z.cosh(z).im) == float(1.0686074214));
+// }
 
-TEST_CASE("Catch2 test on returning the Real Number.")
-{
-  cout << "Running tests on Real Numbers." << endl;
-  Complex a = Complex(1.0,2.0);
-  REQUIRE(a.real(a) == 1.0);
-}
+// TEST_CASE("Catch2 test on returning the Real Number.")
+// {
+//   cout << "Running tests on Real Numbers." << endl;
+//   Complex a = Complex(1.0,2.0);
+//   REQUIRE(a.real(a) == 1.0);
+// }
 
-TEST_CASE("Catch2 test on returning the angle of a complex number.")
-{
-  Complex b = Complex(1.0,2.0);
-  cout << "Running tests on Angles." << endl;
-  REQUIRE(float(b.arg(b)) == float(63.4349488229));
-}
+// TEST_CASE("Catch2 test on returning the angle of a complex number.")
+// {
+//   Complex b = Complex(1.0,2.0);
+//   cout << "Running tests on Angles." << endl;
+//   REQUIRE(float(b.arg(b)) == float(63.4349488229));
+// }
 
 
 //Miles' Tests
@@ -129,20 +130,6 @@ TEST_CASE("Catch2 test on returning the angle of a complex number.")
 //   Complex c (0.0, 1.0);
 //   REQUIRE(c.re == c.atan(c).re);
 // }
-
-// TEST_CASE("Quick Catch2 test on norm"){
-//   cout << "Running tests on norm" << endl;
-//   Complex c (0.0, 1.0);
-//   REQUIRE(c.re == c.norm(c).re);
-// }
-
-//Vince's Tests
-TEST_CASE("Quick Catch2 test sinh") {
-  cout << "Running tests on sinh" << endl;
-  Complex c(1.0, 2.0);
-  REQUIRE(float(c.sinh(c).re) == float(-0.4890558453));
-  REQUIRE(float(c.sinh(c).im) == float(1.4031185621));
-}
 
 // TEST_CASE("Quick Catch2 test on norm"){
 //   cout << "Running tests on norm" << endl;

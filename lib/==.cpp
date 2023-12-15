@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool const Complex::operator ==(const Complex &value){
+bool Complex::operator ==(const Complex &value){
   double r = real(value);
   double i = imag(value);
 

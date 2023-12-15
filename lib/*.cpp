@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Complex Complex::operator *(const Complex value){
+Complex Complex:: operator* (const Complex &value){
   double r = real(value);
   double i = imag(value);
 
