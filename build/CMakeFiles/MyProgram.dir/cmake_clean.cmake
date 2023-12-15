@@ -45,8 +45,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyProgram.dir/lib/polar.cpp.o.d"
   "CMakeFiles/MyProgram.dir/lib/pow.cpp.o"
   "CMakeFiles/MyProgram.dir/lib/pow.cpp.o.d"
-  "CMakeFiles/MyProgram.dir/lib/powc.cpp.o"
-  "CMakeFiles/MyProgram.dir/lib/powc.cpp.o.d"
   "CMakeFiles/MyProgram.dir/lib/powd.cpp.o"
   "CMakeFiles/MyProgram.dir/lib/powd.cpp.o.d"
   "CMakeFiles/MyProgram.dir/lib/powi.cpp.o"

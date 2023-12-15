@@ -763,33 +763,6 @@ lib/pow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/pow.cpp.s
 .PHONY : lib/pow.cpp.s
 
-lib/powc.o: lib/powc.cpp.o
-.PHONY : lib/powc.o
-
-# target to build an object file
-lib/powc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/lib/powc.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/powc.cpp.o
-.PHONY : lib/powc.cpp.o
-
-lib/powc.i: lib/powc.cpp.i
-.PHONY : lib/powc.i
-
-# target to preprocess a source file
-lib/powc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/lib/powc.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/powc.cpp.i
-.PHONY : lib/powc.cpp.i
-
-lib/powc.s: lib/powc.cpp.s
-.PHONY : lib/powc.s
-
-# target to generate assembly for a file
-lib/powc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/lib/powc.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/powc.cpp.s
-.PHONY : lib/powc.cpp.s
-
 lib/powd.o: lib/powd.cpp.o
 .PHONY : lib/powd.o
 
@@ -1085,9 +1058,6 @@ help:
 	@echo "... lib/pow.o"
 	@echo "... lib/pow.i"
 	@echo "... lib/pow.s"
-	@echo "... lib/powc.o"
-	@echo "... lib/powc.i"
-	@echo "... lib/powc.s"
 	@echo "... lib/powd.o"
 	@echo "... lib/powd.i"
 	@echo "... lib/powd.s"

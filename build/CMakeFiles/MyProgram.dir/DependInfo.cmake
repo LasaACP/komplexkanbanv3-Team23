@@ -31,7 +31,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/norm.cpp" "CMakeFiles/MyProgram.dir/lib/norm.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/norm.cpp.o.d"
   "/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/polar.cpp" "CMakeFiles/MyProgram.dir/lib/polar.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/polar.cpp.o.d"
   "/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/pow.cpp" "CMakeFiles/MyProgram.dir/lib/pow.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/pow.cpp.o.d"
-  "/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powc.cpp" "CMakeFiles/MyProgram.dir/lib/powc.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/powc.cpp.o.d"
   "/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powd.cpp" "CMakeFiles/MyProgram.dir/lib/powd.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/powd.cpp.o.d"
   "/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powi.cpp" "CMakeFiles/MyProgram.dir/lib/powi.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/powi.cpp.o.d"
   "/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/real.cpp" "CMakeFiles/MyProgram.dir/lib/real.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/real.cpp.o.d"

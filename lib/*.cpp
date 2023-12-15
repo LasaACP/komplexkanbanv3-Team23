@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Complex operator *(const Complex& value){
+Complex Complex::operator *(const Complex& value){
   double r = value.re;
   double i = value.im;
 

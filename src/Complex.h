@@ -24,11 +24,12 @@ public:
 
   Complex operator +(const Complex& c);
   Complex operator -(const Complex& c);
-  bool operator !=(const Complex& c, const Complex &d);
+  bool operator !=(const Complex& c);
   Complex operator *(const Complex& c);
   Complex operator <<(const Complex& c);
   Complex operator >>(const Complex& c);
-  bool operator ==(const Complex& c);
+  bool operator==(const Complex& c);
+  Complex operator/(const Complex&c);
 
   Complex tanh(Complex x);
   Complex tan(const Complex c);

@@ -26,7 +26,6 @@ add_library(MyLibrary STATIC
   lib/norm.cpp
   lib/polar.cpp
   lib/pow.cpp
-  lib/powc.cpp
   lib/powd.cpp
   lib/powi.cpp
   lib/real.cpp
@@ -61,7 +60,6 @@ add_executable(MyProgram
   lib/norm.cpp
   lib/polar.cpp
   lib/pow.cpp
-  lib/powc.cpp
   lib/powd.cpp
   lib/powi.cpp
   lib/real.cpp

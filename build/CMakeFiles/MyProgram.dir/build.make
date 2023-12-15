@@ -391,24 +391,10 @@ CMakeFiles/MyProgram.dir/lib/pow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/pow.cpp.s"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/pow.cpp -o CMakeFiles/MyProgram.dir/lib/pow.cpp.s
 
-CMakeFiles/MyProgram.dir/lib/powc.cpp.o: CMakeFiles/MyProgram.dir/flags.make
-CMakeFiles/MyProgram.dir/lib/powc.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powc.cpp
-CMakeFiles/MyProgram.dir/lib/powc.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MyProgram.dir/lib/powc.cpp.o"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/powc.cpp.o -MF CMakeFiles/MyProgram.dir/lib/powc.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/powc.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powc.cpp
-
-CMakeFiles/MyProgram.dir/lib/powc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/powc.cpp.i"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powc.cpp > CMakeFiles/MyProgram.dir/lib/powc.cpp.i
-
-CMakeFiles/MyProgram.dir/lib/powc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/powc.cpp.s"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powc.cpp -o CMakeFiles/MyProgram.dir/lib/powc.cpp.s
-
 CMakeFiles/MyProgram.dir/lib/powd.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/powd.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powd.cpp
 CMakeFiles/MyProgram.dir/lib/powd.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MyProgram.dir/lib/powd.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MyProgram.dir/lib/powd.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/powd.cpp.o -MF CMakeFiles/MyProgram.dir/lib/powd.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/powd.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powd.cpp
 
 CMakeFiles/MyProgram.dir/lib/powd.cpp.i: cmake_force
@@ -422,7 +408,7 @@ CMakeFiles/MyProgram.dir/lib/powd.cpp.s: cmake_force
 CMakeFiles/MyProgram.dir/lib/powi.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/powi.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powi.cpp
 CMakeFiles/MyProgram.dir/lib/powi.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MyProgram.dir/lib/powi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MyProgram.dir/lib/powi.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/powi.cpp.o -MF CMakeFiles/MyProgram.dir/lib/powi.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/powi.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/powi.cpp
 
 CMakeFiles/MyProgram.dir/lib/powi.cpp.i: cmake_force
@@ -436,7 +422,7 @@ CMakeFiles/MyProgram.dir/lib/powi.cpp.s: cmake_force
 CMakeFiles/MyProgram.dir/lib/real.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/real.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/real.cpp
 CMakeFiles/MyProgram.dir/lib/real.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MyProgram.dir/lib/real.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MyProgram.dir/lib/real.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/real.cpp.o -MF CMakeFiles/MyProgram.dir/lib/real.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/real.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/real.cpp
 
 CMakeFiles/MyProgram.dir/lib/real.cpp.i: cmake_force
@@ -450,7 +436,7 @@ CMakeFiles/MyProgram.dir/lib/real.cpp.s: cmake_force
 CMakeFiles/MyProgram.dir/lib/sin.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/sin.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/sin.cpp
 CMakeFiles/MyProgram.dir/lib/sin.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MyProgram.dir/lib/sin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MyProgram.dir/lib/sin.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/sin.cpp.o -MF CMakeFiles/MyProgram.dir/lib/sin.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/sin.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/sin.cpp
 
 CMakeFiles/MyProgram.dir/lib/sin.cpp.i: cmake_force
@@ -464,7 +450,7 @@ CMakeFiles/MyProgram.dir/lib/sin.cpp.s: cmake_force
 CMakeFiles/MyProgram.dir/lib/sinh.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/sinh.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/sinh.cpp
 CMakeFiles/MyProgram.dir/lib/sinh.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MyProgram.dir/lib/sinh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MyProgram.dir/lib/sinh.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/sinh.cpp.o -MF CMakeFiles/MyProgram.dir/lib/sinh.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/sinh.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/sinh.cpp
 
 CMakeFiles/MyProgram.dir/lib/sinh.cpp.i: cmake_force
@@ -478,7 +464,7 @@ CMakeFiles/MyProgram.dir/lib/sinh.cpp.s: cmake_force
 CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/sqrt.cpp
 CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o -MF CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/sqrt.cpp
 
 CMakeFiles/MyProgram.dir/lib/sqrt.cpp.i: cmake_force
@@ -492,7 +478,7 @@ CMakeFiles/MyProgram.dir/lib/sqrt.cpp.s: cmake_force
 CMakeFiles/MyProgram.dir/lib/tan.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/tan.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/tan.cpp
 CMakeFiles/MyProgram.dir/lib/tan.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/MyProgram.dir/lib/tan.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/MyProgram.dir/lib/tan.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/tan.cpp.o -MF CMakeFiles/MyProgram.dir/lib/tan.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/tan.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/tan.cpp
 
 CMakeFiles/MyProgram.dir/lib/tan.cpp.i: cmake_force
@@ -506,7 +492,7 @@ CMakeFiles/MyProgram.dir/lib/tan.cpp.s: cmake_force
 CMakeFiles/MyProgram.dir/lib/tanh.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/tanh.cpp.o: /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/tanh.cpp
 CMakeFiles/MyProgram.dir/lib/tanh.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/MyProgram.dir/lib/tanh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/MyProgram.dir/lib/tanh.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/tanh.cpp.o -MF CMakeFiles/MyProgram.dir/lib/tanh.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/tanh.cpp.o -c /home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/lib/tanh.cpp
 
 CMakeFiles/MyProgram.dir/lib/tanh.cpp.i: cmake_force
@@ -542,7 +528,6 @@ MyProgram_OBJECTS = \
 "CMakeFiles/MyProgram.dir/lib/norm.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/polar.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/pow.cpp.o" \
-"CMakeFiles/MyProgram.dir/lib/powc.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/powd.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/powi.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/real.cpp.o" \
@@ -578,7 +563,6 @@ MyProgram: CMakeFiles/MyProgram.dir/lib/log10.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/norm.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/polar.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/pow.cpp.o
-MyProgram: CMakeFiles/MyProgram.dir/lib/powc.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/powd.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/powi.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/real.cpp.o
@@ -590,7 +574,7 @@ MyProgram: CMakeFiles/MyProgram.dir/lib/tanh.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/build.make
 MyProgram: libMyLibrary.a
 MyProgram: CMakeFiles/MyProgram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable MyProgram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/KomplexKanban-V3-ShaayanBhattacharya/komplexkanbanv3-team23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable MyProgram"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProgram.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
