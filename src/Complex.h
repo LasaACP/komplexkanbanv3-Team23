@@ -50,7 +50,7 @@ Complex operator ==(const Complex& c);
   Complex polar(double mag, double ang = 0.0);
   double norm(const Complex c);
   double imag(const Complex &c);
-  Complex conj(const Complex c);
+  Complex conj(const Complex &c);
   double arg(const Complex c);
   double abs(const Complex c);
 };
