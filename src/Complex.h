@@ -24,7 +24,7 @@ public:
 
   Complex operator +(const Complex& c);
   Complex operator -(const Complex& c);
-  bool operator !=(const Complex& c);
+  bool operator !=(const Complex& c, const Complex &d);
   Complex operator *(const Complex& c);
   Complex operator <<(const Complex& c);
   Complex operator >>(const Complex& c);

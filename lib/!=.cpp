@@ -1,9 +1,12 @@
 #include "../src/Complex.h" 
-#include <cmath>
 using namespace std;
 
-bool const Complex::operator!=(const Complex &num) {
-  double real1 = real(num);
-  double imag1 = imag(num);
-  return !(real1 == re && imag1 == im);
+bool const operator!=(const Complex &num, const Complex &num2) {
+  double real1 = num.re;
+  double imag1 = num.im;
+
+  double real2 = num2.re;
+  double imag2 = num2.im;
+  
+  return !(real1 == real2 && imag1 == imag2);
 }
