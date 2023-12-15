@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Complex Complex::powd(const Complex b, double exp){
+Complex Complex::powd(const Complex b, double exp) {
   double a = b.re;
   double be = b.im;
   double r = std::abs(be);
@@ -13,6 +13,6 @@ Complex Complex::powd(const Complex b, double exp){
 
   double newR = std::pow(r, exp) * std::cos(exp * theta);
   double newI = std::pow(r, exp) * std::sin(exp * theta);
-  
+
   return Complex(newR, newI);
 }
